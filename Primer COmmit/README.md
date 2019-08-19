@@ -1,1 +1,3 @@
 Hola Mundo!
+HELLO WORD!
+ALOHA!
