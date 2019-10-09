@@ -39,16 +39,24 @@ submit_btn.addEventListener("click", ()=>{
 })
 
 carnet_field.addEventListener("keyup", (event)=>{
+    
     let keyCode = event.keyCode
+    
     let carnet = carnet_field.value
+    
 
     if(keyCode == 13){
         submit_btn.click()
 
     }
     if(carnet_regex.test(carnet)){
+        
+        console.log('dasas');
+        
         submit_btn.disabled = false
     }else{
+        console.log('no');
+        
         submit_btn.disabled = true
     }
 
