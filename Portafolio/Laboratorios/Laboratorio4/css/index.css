@@ -1,0 +1,157 @@
+body {
+  background-image: url(https://userscontent2.emaze.com/images/7b287426-37b5-42a0-8b57-874cde5cfbc8/d6c6102a136b1762a3ee987cdbf71c79.png);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 1em 5%;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+nav {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.btn {
+  color: white;
+  margin: 0.5em;
+  padding: 0.8em;
+  background: gray;
+}
+
+main {
+  width: 60%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .logos {
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0.5em;
+  background: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .logos img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 5em;
+  height: 5em;
+  margin: 0.5em;
+  border: 1px solid black;
+  border-radius: 100%;
+  opacity: 0.7;
+}
+
+main .logos img:hover {
+  opacity: 1;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.btn1 {
+  background-color: #b62ab6;
+  color: black;
+  margin: 0.5em;
+  padding: 0.8;
+}
+
+.btn1:hover {
+  opacity: 0.7;
+}
+
+.btn1 {
+  background-color: #0c6b6b;
+  color: black;
+  margin: 0.5em;
+  padding: 0.8;
+}
+
+.btn1:hover {
+  opacity: 0.7;
+}
+
+.btn1 {
+  background-color: #30bd1d;
+  color: black;
+  margin: 0.5em;
+  padding: 0.8;
+}
+
+.btn1:hover {
+  opacity: 0.7;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer button {
+  padding: 0.7em;
+}
+/*# sourceMappingURL=index.css.map */
