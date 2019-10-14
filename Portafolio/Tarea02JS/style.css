@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:500');
+@import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap');
+
+
+
+header{
+  background-color: #fff; 
+}
+
+h1{
+  font-family: 'DM Serif Display', serif;
+  font-size: 50px;
+}
+
+.back{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background:url(https://mitelamarinera.com/wp-content/uploads/2018/09/sudadera-rosa.jpg) no-repeat top center #efeff1;
+  background-size:cover;
+  /*https://pp.userapi.com/c841122/v841122831/327e/nHt-92F6yc4.jpg*/
+}
+/*.thx{
+  position: fixed;
+  left:50%;
+  transform:translateX(-50%);
+  bottom: 15px;
+}*/
+
+.dia{
+
+  font-family: 'Special Elite', cursive;
+
+}
+
+.menu {
+  background-color: #112935;
+  display: flex;
+  margin: 50px; 
+  list-style: none;
+  width: auto;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+/*
+.menu li {
+  display: block;
+  padding: 0.5em;
+  margin-top: 5px;
+}*/
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  
+}
+
+
+nav{
+  width: 100%;
+  position: absolute;
+  top:50px;
+  text-align:center;
+}
+
+nav a{
+  font-family: 'Comfortaa', cursive;
+  font-weight:500;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:#16151b;
+  margin:0 15px;
+  font-size:16px;
+  letter-spacing:1px;
+  position: relative;
+  display:inline-block;
+   
+  
+}
+
+
+nav a:before{
+  content:'';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background:#16151b;
+  top:47%;
+  animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+}
+nav a:hover:before{
+  animation:in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+
+}
+@keyframes in{
+  0%{
+    width: 0;
+    left:0;
+    right:auto;
+  }
+  100%{
+    left:0;
+    right:auto;
+    width: 100%;
+  }
+}
+@keyframes out{
+  0%{
+    width:100%;
+    left: auto;
+    right: 0;
+  }
+  100 % {
+    width: 0;
+    left: auto;
+    right: 0;
+  }
+}
+@keyframes show{
+  0%{
+    opacity:0;
+    transform:translateY(-10px);
+  }
+  100%{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+@for $i from 1 through 5 {
+  nav a:nth-child(#{$i}){
+    animation:show .2s #{$i*0.1+1}s ease 1 both;
+  }
+}
+
+*{
+  margin : 0;
+  padding: 0;
+  box-sizing : border-box;
+}
+
+.wrap{
+
+  width: 1100px;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+
+
+.tarjeta-wrap{
+  margin: 10px;
+  -webkit-perspective: 800;
+  perspective: 800;
+}
+
+.tarjeta{
+  width: 300px;
+  height: 350px;
+  background: orange;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: .7s ease;
+ 
+
+}
+
+.adelante, .atras{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+ 
+}
+
+.adelante{
+  width: 100%;
+}
+
+
+.atras{
+  transform: rotateY(180deg);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  color:black;
+  /*font-family: 'Mansalva', cursive;*/
+  font-family: 'Comfortaa', cursive;
+}
+
+.tarjeta-wrap:hover .tarjeta{
+  transform: rotateY(180deg);
+
+
+}
+
+.card1{
+  background-image: url(https://i.blogs.es/5efe2c/cap_001/450_1000.jpg); 
+  background-size: cover; 
+}
+.card2{
+  background-image: url(https://i.blogs.es/5efe2c/cap_001/450_1000.jpg); 
+}
+.card3{
+  background-image: url(https://i.blogs.es/5efe2c/cap_001/450_1000.jpg); 
+}
+
+.info{
+  width: auto;
+  height: 350px;
+  display: flex;
+  margin: 10px;
+  background: orange;
+  align-items: center;
+
+  
+}
+
+.info p{
+  font-family: 'Be Vietnam', sans-serif;
+}
+
+
+
+.dia{
+  background:tomato;
+  width: auto;
+  height: 50px;
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.dia a{
+  background-color: green; 
+}
+
+footer{
+  background: #16151b;
+  color: red;
+  width: auto;
+  height: 50px;
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+@media only screen and (max-width: 1440px) {
+  /*body {
+      width: 80%;
+      margin: 0 auto;
+      max-width: 1440;
+  }*/
+
+
+  
+}
+
+
+@media only screen and (max-width: 425px) {
+  .feature .feature-media, .feature .feature-body  {
+      width: 100%;
+  }
+  
+}
