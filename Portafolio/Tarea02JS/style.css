@@ -34,10 +34,19 @@ h1{
   bottom: 15px;
 }*/
 
+.perfil{
+  border-radius: 100px;
+  margin: 5px;
+}
+
 .dia{
 
   font-family: 'Special Elite', cursive;
 
+}
+
+.titulo{
+  margin-top: 175px;
 }
 
 .menu {
@@ -56,6 +65,7 @@ h1{
   display: block;
   padding: 0.5em;
   margin-top: 5px;
+  <a href="#">Enroll up</a>
 }*/
 
 .menu li a {
@@ -68,7 +78,6 @@ h1{
 nav{
   width: 100%;
   position: absolute;
-  top:50px;
   text-align:center;
 }
 
@@ -81,12 +90,21 @@ nav a{
   margin:0 15px;
   font-size:16px;
   letter-spacing:1px;
-  position: relative;
+  position: relat
+  font-family: 'Comfortive;
   display:inline-block;
    
   
 }
-
+.menuTop{
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  background: #112935;
+  padding: 0px;
+  width: 100%;
+}
 
 nav a:before{
   content:'';
@@ -164,7 +182,7 @@ nav a:hover:before{
 
 
 .tarjeta-wrap{
-  margin: 10px;
+  margin: 15px;
   -webkit-perspective: 800;
   perspective: 800;
 }
@@ -240,6 +258,7 @@ nav a:hover:before{
 .info p{
   font-family: 'Be Vietnam', sans-serif;
   margin: 50px;
+  font-size: 12px;
 }
 
 
@@ -268,7 +287,7 @@ footer{
   width: auto;
   height: 50px;
   display: flex;
-  margin: 10px;
+  margin: 50px;
   justify-content: center;
   align-items: center;
 }
