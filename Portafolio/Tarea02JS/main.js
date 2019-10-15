@@ -12,25 +12,44 @@ let infoMiercoles = document.getElementById("infoMiercoles");
 let infoJueves = document.getElementById("infoJueves");
 let infoViernes = document.getElementById("infoViernes");
 
+var aux = document.getElementById("nada");
 
 function mostrar1(){
-    menuLunes.classList.toggle("infoLunes")
-    infoLunes.style.display = "flex"
+    aux.style.display = "none";
+    infoLunes.style.display = "flex";
+    aux = infoLunes;
 }
 
 menuLunes.addEventListener("click", mostrar1);
 
-
-
 function mostrar2(){
-    menuMartes.classList.toggle("infoMartes")
-    infoMartes.style.display = "flex"
+    aux.style.display = "none";
+    infoMartes.style.display = "flex";
+    aux = infoMartes;
 }
 
 menuMartes.addEventListener("click", mostrar2);
 
-function mostrar(){
-    if()
+function mostrar3(){
+    aux.style.display = "none";
+    infoMiercoles.style.display = "flex";
+    aux = infoMiercoles;
 }
 
+menuMiercoles.addEventListener("Click", mostrar3);
 
+function mostrar4(){
+    aux.style.display = "none";
+    infoJueves.style.display = "flex";
+    aux = infoJueves;
+}
+
+menuJueves.addEventListener("click", mostrar4);
+
+function mostrar5(){
+    aux.style.display = "none";
+    infoViernes.style.display = "flex";
+    aux = infoViernes;
+}
+
+menuViernes.addEventListener("click", mostrar5);

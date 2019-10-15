@@ -104,6 +104,7 @@ nav a{
   background: #112935;
   padding: 0px;
   width: 100%;
+  z-index:1;
 }
 
 nav a:before{
@@ -292,9 +293,26 @@ footer{
   align-items: center;
 }
 
-/*.info{
+#infoLunes{
   display: none;
-}*/
+}
+
+#infoMartes{
+  display: none;
+}
+
+#infoMiercoles{
+  display: none;
+}
+
+#infoJueves{
+  display: none;
+}
+
+#infoViernes{
+  display: none;
+}
+
 
 
 
