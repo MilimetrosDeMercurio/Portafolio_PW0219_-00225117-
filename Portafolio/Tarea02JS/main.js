@@ -36,7 +36,7 @@ function mostrar3(){
     aux = infoMiercoles;
 }
 
-menuMiercoles.addEventListener("Click", mostrar3);
+menuMiercoles.addEventListener("click", mostrar3);
 
 function mostrar4(){
     aux.style.display = "none";
