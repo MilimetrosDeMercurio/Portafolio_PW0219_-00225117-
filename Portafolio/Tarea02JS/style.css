@@ -655,25 +655,3 @@ footer{
 #infoViernes{
   display: none;
 }
-
-
-
-
-@media only screen and (max-width: 1440px) {
-  /*body {
-      width: 80%;
-      margin: 0 auto;
-      max-width: 1440;
-  }*/
-
-
-  
-}
-
-
-@media only screen and (max-width: 425px) {
-  .feature .feature-media, .feature .feature-body  {
-      width: 100%;
-  }
-  
-}

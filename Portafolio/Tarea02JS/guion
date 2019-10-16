@@ -1,0 +1,51 @@
+Buenos dias, este dia les explicare como desarrolle mi blog;
+el cual se titula MAR Blog's
+
+Es un disenio que muestra articulo por articulo, el cual nos permite visualizar el 
+contenido especifico o de nuestro interes.
+
+En la primera seccion se encuentra el menu, el cual nos da las opciones de los dias para 
+poder visualzar su cntenido.
+
+Implementado de una manera sencilla para facilitar el uso del lector.
+
+Empezaremos como es el cuerpo de cada uno de los articulos.
+
+Su disenio no es muy complejo a decir verdad debido a que muestra una fotografia y una descripcion del dia.
+
+cada uno con su respectiva seccion para poderlo mostrar de manera legible.
+
+Luego tenemos una seccion con 3 targetas de las cuales llevan una mini descripcion de intereses 
+muy aparte de lo de los articulos como una seccion de entretenimiento.
+
+tienen una animacion que es sencilla pero le da un gran estilo y favorece el disenio, que lleva 
+lo mas minimo de informacion y una imagen representativa 
+
+Al final muestra un apartado o conocido como pie de pagna el cual lleva una frase para poder terminar de 
+leer agradablemente el  articulo 
+
+HTML
+
+Bueno ahora nos pasaremos al area del codigo,
+
+Aca definimos nuestras secciones donde se encuentran los bloques donde estan hubicados los articulos, con su 
+respectivo  titulo, imagen representativa y descripcion personal.
+Son varios debidoa a que es uno por dia y cada uno es diferente en cuanto a su contenido y objetivo del 
+lector
+
+En la siguiente seccion tenemos nuestras cartas que le da un gran estilo y disenio al nuestra pagina web, 
+estan definidas por una seccion y varias clases ya que, estas tienen 2 caras una delantera y una trasera, 
+la delantera nos muestra una imagen y la parte de atras nos da una pequenia descripcion 
+
+nuestra ultima seccion en el html es el pie de pagina el cual solo contiene una frase
+
+CSS 
+
+En esta parte es donde estan definidas todas nuestras clases para poderle colocar su personalidad a 
+cada una de ellas , ya sea un parrafo, imagen, es aca donde se le da el toque creativo a cada uno de ellos 
+
+JS
+
+En esta parte hemos definido variables que nos ayudan a que nuestra interactividad con cada uno de los articulos 
+sea ordenado y se nos muestren uno por uno, estan las funciones que nos ayudan a realizarlo de esa manera.
+
