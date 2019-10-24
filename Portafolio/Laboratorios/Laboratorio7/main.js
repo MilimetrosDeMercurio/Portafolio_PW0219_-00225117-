@@ -21,7 +21,7 @@ let addStudent = (carnet,schedule,late)=>{
 
 let parseLateSwitch = (value) => {
     if(value){
-        return "Tradisismo"
+        return "Tarde"
     }
     return "A tiempo"
 }
